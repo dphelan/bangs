@@ -62,16 +62,6 @@
   {
     "s": "Kagi Assistant",
     "d": "kagi.com",
-    "t": "fast",
-    "u": "/assistant?q={{{s}}}",
-    "fmt": [
-      "url_encode_placeholder",
-      "url_encode_space_to_plus"
-    ]
-  },
-  {
-    "s": "Kagi Assistant",
-    "d": "kagi.com",
     "t": "expert",
     "u": "/assistant?q={{{s}}}",
     "fmt": [
@@ -124,6 +114,16 @@
     "d": "kagi.com",
     "t": "asst",
     "u": "/assistant?q={{{s}}}",
+    "fmt": [
+      "url_encode_placeholder",
+      "url_encode_space_to_plus"
+    ]
+  },
+  {
+    "s": "Kagi Assistant (with Ki)",
+    "d": "kagi.com",
+    "t": "ki",
+    "u": "/assistant?q={{{s}}}&profile=ki",
     "fmt": [
       "url_encode_placeholder",
       "url_encode_space_to_plus"
